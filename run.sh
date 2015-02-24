@@ -1,0 +1,1 @@
+docker run --name="tomcat7-v7.0.59" -d -p 8080:8080 -v ~/Development/docker/tomcat/logs:/opt/tomcat/apache-tomcat/logs -v ~/Development/docker/tomcat/webapps:/opt/tomcat/apache-tomcat/webapps -m 2g amsokol/centos-tomcat7:7.0.59
